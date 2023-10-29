@@ -1,4 +1,4 @@
-var nome = window.prompt("Digite seu nome de herói:");
+var nome = prompt("Digite seu nome de herói:");
 function XP(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
@@ -28,4 +28,4 @@ let Classe = "";
     else {
         Classe = "Lendario";
 }
-window.alert(`Nobre guerreiro(a)${nome}, sua pontuação é de ${pontuacaoXP} e sua classificação é nível ${Classe}`);
+alert(`Nobre guerreiro ${nome}, sua pontuação é de ${pontuacaoXP} e sua classificação é nível ${Classe}`);
